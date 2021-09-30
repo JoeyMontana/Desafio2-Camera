@@ -24,12 +24,10 @@ public class CameraController : MonoBehaviour
     public void MainCameraView() {
         mainCamera.enabled = true;
         leftCamera.enabled = false;
-        RightCamera.enabled = false;
     }
     
     public void LeftCameraView() {
         mainCamera.enabled = false;
         leftCamera.enabled = true;
-        RightCamera.enabled = false;
     }
 }
